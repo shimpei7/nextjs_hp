@@ -4,9 +4,6 @@ export default function Home() {
   return (
     <Layout title="Home">
       <p className="text-4xl">hellow nextjsえす!</p>
-   
-
-
       </Layout>
       )
 }
