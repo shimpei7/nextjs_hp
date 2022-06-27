@@ -11,8 +11,8 @@ export async function getStaticProps(){
 
 const Blog = ( {posts} ) => {
   return (
-    <Layout title="Blog">
-     <ul>
+    <Layout>
+         <ul>
        {posts && posts.map((post) => <Post key={post.id} post={post} />)}   
     </ul>  
     </Layout>
